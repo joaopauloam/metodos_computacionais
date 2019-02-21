@@ -1,0 +1,10 @@
+name: metodos_computacionais
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - bokeh
+  - scikit-learn
+- dask
