@@ -1,0 +1,92 @@
+Using 16 compute processes
+GAMESS supplementary output files will be written to '/projetos/qui766/luiz_claudio/comp12DFT.21145' [NFS filesystem]
+
+Data folder '/projetos/qui766/luiz_claudio/comp12DFT.21145' created [NFS].
+
+
+GAMESS temporary binary files will be written to /var/tmp/jpam-gamess-21145 [veredas[52-55]]
+
+Using /var/tmp/jpam-gamess-21145 as the local scratch directory in every node
+Create remote directory replicas of '/var/tmp/jpam-gamess-21145'.
+Available scratch disk space (Kbyte units) in remote nodes:
+---------------
+veredas52
+---------------
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda5            101857944   3275432  93408380   4% /var
+---------------
+veredas53
+---------------
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda5            101857944   3639084  93044728   4% /var
+---------------
+veredas54
+---------------
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda5            101857944    704024  95979788   1% /var
+---------------
+veredas55
+---------------
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda5            101857944   3688792  92995020   4% /var
+
+----- GAMESS execution script 'rungms' -----
+
+This job has been submitted on host veredas52
+under operating system Linux at Mon Aug 20 11:06:32 BRT 2018
+SLURM has assigned the following compute nodes to this run:
+veredas[52-55]
+Copying input file /projetos/qui766/luiz_claudio/comp12PM3.inp to run's scratch directories...
+sourcing gms-files.ch ...
+HOSTFILE comp12PM3.nodes contains
+veredas52
+veredas53
+veredas54
+veredas55
+Copy $HOSTFILE to allocated nodes ...
+
+Let us move to the scratch directory
+
+PROCFILE $PROCFILE contains
+veredas52:8
+veredas53:8
+veredas54:8
+veredas55:8
+Copy $PROCFILE to allocated nodes ...
+--------------
+MPI kickoff will run GAMESS on 16 cores in 4 nodes.
+MPI will run 16 compute processes and 16 data servers,
+The scratch disk space on each node is /var/tmp/jpam-gamess-21145, with free space
+[3] MPI startup(): DAPL provider OpenIB-cma
+[6] MPI startup(): DAPL provider OpenIB-cma
+[7] MPI startup(): DAPL provider OpenIB-cma
+[12] MPI startup(): DAPL provider OpenIB-cma
+[1] MPI startup(): DAPL provider OpenIB-cma
+[0] MPI startup(): DAPL provider OpenIB-cma
+[4] MPI startup(): DAPL provider OpenIB-cma
+[2] MPI startup(): DAPL provider OpenIB-cma
+[5] MPI startup(): DAPL provider OpenIB-cma
+[8] MPI startup(): DAPL provider OpenIB-cma
+[9] MPI startup(): DAPL provider OpenIB-cma
+[15] MPI startup(): DAPL provider OpenIB-cma
+[11] MPI startup(): DAPL provider OpenIB-cma
+[10] MPI startup(): DAPL provider OpenIB-cma
+[14] MPI startup(): DAPL provider OpenIB-cma
+[13] MPI startup(): DAPL provider OpenIB-cma
+[30] MPI startup(): DAPL provider OpenIB-cma
+[25] MPI startup(): DAPL provider OpenIB-cma
+[24] MPI startup(): DAPL provider OpenIB-cma
+[26] MPI startup(): DAPL provider OpenIB-cma
+[29] MPI startup(): DAPL provider OpenIB-cma
+[31] MPI startup(): DAPL provider OpenIB-cma
+[27] MPI startup(): DAPL provider OpenIB-cma
+[28] MPI startup(): DAPL provider OpenIB-cma
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+CMA: unable to query RDMA device
+Killed (signal 9)
