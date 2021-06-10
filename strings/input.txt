@@ -1,0 +1,4 @@
+%nproc=12
+%mem=16GB
+%chk=nome.chk
+# opt b3lyp/3-21g geom=connectivity
